@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         //задача 1
         String firstName = " Ivan";
-        String middleName = " Ivanov";
-        String lastName = " Ivanovich";
-        String fullName = middleName + firstName + lastName;
+        String middleName = " Ivanovich";
+        String lastName = " Ivanov";
+        String fullName = lastName + firstName + middleName;
         System.out.println(fullName);
 
         //задача 2
